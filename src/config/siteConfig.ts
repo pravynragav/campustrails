@@ -302,18 +302,18 @@ export const siteConfig: SiteConfig = {
       number: "08",
       title: "404: Seriousness Not Found",
       shortDescription:
-        "Memes, relatable engineering humour, comics, and funny campus content.",
+        "Student comics, lighthearted campus observations, creative anecdotes, and humorous stories.",
       fullDescription:
-        "The lighthearted side of engineering! A collection of relatable student memes, original comic strips, humorous campus observations, exam week humor, and campus life parodies.",
+        "The lighthearted side of engineering! A collection of original student comic strips, relatable campus observations, exam week anecdotes, and humorous student-life stories.",
       status: "coming-soon",
       formUrl:
         "https://docs.google.com/forms/d/e/1FAIpQLSc_SERIOUSNESS_NOT_FOUND_FORM/viewform",
       categoryTag: "Humour & Comics",
       expectedTopics: [
-        "Relatable Mepco campus memes",
-        "Exam week & viva comic strips",
-        "Engineering lab humour",
-        "Funny campus life observations",
+        "Original student comic strips & sketches",
+        "Exam week & viva lighthearted anecdotes",
+        "Engineering lab humour & creative stories",
+        "Relatable campus life observations",
       ],
     },
     {
