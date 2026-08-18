@@ -76,8 +76,7 @@ export const siteConfig: SiteConfig = {
   collegeImagePath: "/pic/clg.jpeg",
 
   // Central Google Form URL for Main Article Collection
-  articleCollectionForm:
-    "https://docs.google.com/forms/d/e/1FAIpQLSc_MAIN_COLLECTION_FORM/viewform",
+  articleCollectionForm: "https://forms.gle/6PA9JdWMk88eHrHd6",
 
   submissionInfo: {
     deadline: "Rolling Submission (Phase 1 Priority Deadline: March 31, 2026)",
@@ -154,8 +153,7 @@ export const siteConfig: SiteConfig = {
       fullDescription:
         "The Main Article Collection is the core literary and creative portal for Campus Trails 27. We invite Tamil stories & poems (கவிதைகள் & கதைகள்), English literature, feature essays, campus photography, and drawings/artwork from Mepco Schlenk Engineering College students and staff.",
       status: "active",
-      formUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSc_MAIN_ARTICLE_COLLECTION_FORM/viewform",
+      formUrl: "https://forms.gle/6PA9JdWMk88eHrHd6",
       categoryTag: "Primary Section",
       expectedTopics: [
         "Tamil Poems & Stories (கவிதைகள் & சிறுகதைகள்)",
