@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
             >
               <img
                 src={siteConfig.collegeLogoPath}
-                alt="Mepco Crest"
+                alt="Campus Trails 27 Logo"
                 className="h-9 w-9 rounded-xl border border-white/20 object-cover"
               />
               <div className="flex items-baseline gap-1">

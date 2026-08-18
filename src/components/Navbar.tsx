@@ -37,12 +37,12 @@ export const Navbar: React.FC = () => {
       }`}
     >
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:px-8">
-        {/* Brand Logo & College Crest */}
+        {/* Brand Logo & Crest */}
         <Link href="/" className="group flex items-center gap-3 text-lg font-black tracking-tighter text-[#151515]">
           <div className="relative flex h-10 w-10 overflow-hidden rounded-xl border border-black/10 shadow-sm bg-white transition-transform group-hover:scale-105">
             <img
               src={siteConfig.collegeLogoPath}
-              alt="Mepco Schlenk Engineering College Logo"
+              alt="Campus Trails 27 Logo"
               className="h-full w-full object-cover"
             />
           </div>

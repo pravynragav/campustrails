@@ -83,7 +83,7 @@ export default function RootLayout({
     name: siteConfig.institution,
     alternateName: "Mepco Schlenk Engineering College",
     url: "https://campustrails.vercel.app",
-    logo: "https://campustrails.vercel.app/pic/logo.jpg",
+    logo: "https://campustrails.vercel.app/pic/ct-logo.png",
     department: {
       "@type": "Organization",
       name: "Campus Trails 27 Editorial Board",

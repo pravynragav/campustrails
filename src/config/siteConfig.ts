@@ -73,7 +73,7 @@ export const siteConfig: SiteConfig = {
   facultyInCharge: "Dr. J. Senthilkumar",
 
   // Images in public/pic
-  collegeLogoPath: "/pic/logo.jpg",
+  collegeLogoPath: "/pic/ct-logo.png",
   collegeImagePath: "/pic/clg.jpeg",
 
   // Central Google Form URL for Main Article Collection
