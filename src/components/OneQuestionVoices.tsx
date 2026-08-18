@@ -45,14 +45,28 @@ export const OneQuestionVoices: React.FC = () => {
         />
       </div>
 
-      {/* Current Question Banner */}
+      {/* Active Prompts & Questions Banner */}
       <div className="mb-10 rounded-2xl bg-white/10 p-6 md:p-8 border border-white/15 backdrop-blur-md">
-        <span className="text-[10px] font-bold uppercase tracking-[0.25em] text-[#ed4b35]">
-          Current Active Prompt
-        </span>
-        <h3 className="mt-2 text-xl font-bold leading-relaxed text-white md:text-2xl">
-          "{siteConfig.oneQuestionPrompt}"
-        </h3>
+        <div className="flex items-center justify-between gap-4 mb-4">
+          <span className="text-[10px] font-bold uppercase tracking-[0.25em] text-[#ed4b35]">
+            Featured Questions & Prompts for Edition 27
+          </span>
+          <span className="text-xs font-mono text-white/50">5 Active Prompts</span>
+        </div>
+
+        <ul className="space-y-3">
+          {siteConfig.oneQuestionPrompts.map((question, idx) => (
+            <li
+              key={idx}
+              className="flex items-start gap-3 rounded-xl bg-white/5 p-3.5 border border-white/10 text-sm md:text-base font-semibold text-white/90"
+            >
+              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#ed4b35]/20 font-mono text-xs font-bold text-[#ed4b35]">
+                0{idx + 1}
+              </span>
+              <span>{question}</span>
+            </li>
+          ))}
+        </ul>
       </div>
 
       {/* Grid of Voices / Student Responses */}

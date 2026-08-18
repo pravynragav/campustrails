@@ -46,6 +46,7 @@ export interface SiteConfig {
   collegeImagePath: string;
   submissionInfo: SubmissionDetails;
   oneQuestionPrompt: string;
+  oneQuestionPrompts: string[];
   oneQuestionResponses: QuestionVoiceResponse[];
   sections: SectionItem[];
   navigation: {
@@ -96,7 +97,14 @@ export const siteConfig: SiteConfig = {
   },
 
   oneQuestionPrompt:
-    "What is one piece of advice or memorable lesson you would share with a 1st-year student at Mepco?",
+    "What is one memory with your friends that you will never forget?",
+  oneQuestionPrompts: [
+    "What is one memory with your friends that you will never forget?",
+    "What did you expect your first day to be like vs what actually happened?",
+    "What did you expect your friendship to be like vs reality?",
+    "What is the funniest excuse you have ever heard for being late to class?",
+    "What is your biggest expectation vs reality moment in college?",
+  ],
   oneQuestionResponses: [
     {
       id: "1",
@@ -179,7 +187,7 @@ export const siteConfig: SiteConfig = {
         "Real campus experiences, event stories, funny incidents, memorable lab moments, and faculty anecdotes.",
       fullDescription:
         "Campus Chronicles captures the authentic heartbeat of Mepco Schlenk Engineering College life. Share real campus experiences, symposium victories, funny hostel/mess incidents, unforgettable lab bloopers, short memories, and lighthearted student/faculty stories.",
-      status: "active",
+      status: "coming-soon",
       formUrl:
         "https://docs.google.com/forms/d/e/1FAIpQLSc_CAMPUS_CHRONICLES_FORM/viewform",
       categoryTag: "Priority Section",
@@ -207,17 +215,17 @@ export const siteConfig: SiteConfig = {
       fullDescription:
         "One Question, Many Voices features short, impactful perspectives from students across all departments and academic years at Mepco. Each month, we pose one compelling question and feature the top responses directly on the website.",
       status: "active",
-      formUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSc_ONE_QUESTION_MANY_VOICES_FORM/viewform",
+      formUrl: "https://forms.gle/FHiUfH96tmkSHQfL9",
       categoryTag: "Interactive Website Section",
       expectedTopics: [
-        "Advice to 1st-year junior students",
-        "Favorite campus spot & why",
-        "Best project / lab experience at Mepco",
-        "What engineering taught me about life",
+        "What is one memory with your friends that you will never forget?",
+        "What did you expect your first day to be like vs what actually happened?",
+        "What did you expect your friendship to be like vs reality?",
+        "What is the funniest excuse you have ever heard for being late to class?",
+        "What is your biggest expectation vs reality moment in college?",
       ],
       currentPrompt:
-        "What is one piece of advice or memorable lesson you would share with a 1st-year student at Mepco?",
+        "What is one memory with your friends that you will never forget?",
     },
     {
       id: "what-i-learned",
@@ -246,9 +254,8 @@ export const siteConfig: SiteConfig = {
         "DIY projects, arts & crafts, handmade works, and creative student creations.",
       fullDescription:
         "Celebrating hands-on craftsmanship and artistic hobbies. Showcasing DIY projects, handmade crafts, origami, pottery, woodworking, custom electronics mods, and physical artwork created by students.",
-      status: "coming-soon",
-      formUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSc_DIY_CREATIVE_CORNER_FORM/viewform",
+      status: "active",
+      formUrl: "https://forms.gle/wVid9JMmyDtzWDzv9",
       categoryTag: "Crafts & Hobby Arts",
       expectedTopics: [
         "Handmade arts & crafts showcases",
@@ -303,9 +310,8 @@ export const siteConfig: SiteConfig = {
         "Student comics, lighthearted campus observations, creative anecdotes, and humorous stories.",
       fullDescription:
         "The lighthearted side of engineering! A collection of original student comic strips, relatable campus observations, exam week anecdotes, and humorous student-life stories.",
-      status: "coming-soon",
-      formUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSc_SERIOUSNESS_NOT_FOUND_FORM/viewform",
+      status: "active",
+      formUrl: "https://forms.gle/zVuveJNN9bmmao4x8",
       categoryTag: "Humour & Comics",
       expectedTopics: [
         "Original student comic strips & sketches",
