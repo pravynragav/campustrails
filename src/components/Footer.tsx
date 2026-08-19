@@ -69,7 +69,7 @@ export const Footer: React.FC = () => {
                   href="/sections"
                   className="hover:text-white transition-colors"
                 >
-                  Publication Sections (11 Catalog Items)
+                  Publication Sections ({siteConfig.sections.length} Catalog Items)
                 </Link>
               </li>
               <li>

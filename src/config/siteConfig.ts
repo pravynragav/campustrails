@@ -228,8 +228,45 @@ export const siteConfig: SiteConfig = {
         "What is one memory with your friends that you will never forget?",
     },
     {
-      id: "what-i-learned",
+      id: "interactive-ct",
       number: "04",
+      title: "Interactive CT",
+      shortDescription:
+        "Mini-games, browser games, quizzes, aptitude challenges, puzzles, chatbots, and interactive web activities.",
+      fullDescription:
+        "🎮 Interactive CT brings fun and interactive digital creations and web activities to Campus Trails 27. A dedicated space for students, faculty, and alumni to share mini-games, quizzes, trivia, aptitude challenges, puzzles, digital stories, AI chatbots, and playable experiences accessible via web links.",
+      status: "active",
+      formUrl: "https://forms.gle/JctUowRkW5nhEPnX6",
+      categoryTag: "Interactive & Games",
+      expectedTopics: [
+        "🎮 Mini-games & browser games",
+        "🧠 Quizzes & trivia challenges",
+        "📝 Aptitude tests & logic challenges",
+        "🧩 Puzzles & brain teasers",
+        "🎯 Interactive challenges",
+        "🎨 Digital stories & creative experiences",
+        "🤖 AI-based activities & Chatbots",
+        "Other fun, playable, or interactive creations",
+      ],
+      submissionInfo: {
+        deadline: "Active Submission Window - Edition 27",
+        eligibleContributors:
+          "Students, Faculty, and Alumni — anyone who has created an interactive activity shareable via link",
+        submissionMethod: "Section-specific Google Form",
+        reviewProcess:
+          "Fast-track technical & gameplay verification by Campus Trails editorial team",
+        contactEmail: "campustrails@mepcoeng.ac.in",
+        acceptedFormats: [
+          "Playable Web Link / Access URL",
+          "Name / Title of the activity",
+          "Short description & Type of activity",
+          "Team member details",
+        ],
+      },
+    },
+    {
+      id: "what-i-learned",
+      number: "05",
       title: "What I Learned",
       shortDescription:
         "Students share useful engineering, technical, practical or life skills they have learned.",
@@ -248,7 +285,7 @@ export const siteConfig: SiteConfig = {
     },
     {
       id: "diy-creative-corner",
-      number: "05",
+      number: "06",
       title: "DIY & Creative Corner",
       shortDescription:
         "DIY projects, arts & crafts, handmade works, and creative student creations.",
@@ -266,7 +303,7 @@ export const siteConfig: SiteConfig = {
     },
     {
       id: "a-year-in-mepco",
-      number: "06",
+      number: "07",
       title: "A Year in MEPCO",
       shortDescription:
         "Clubs and student activities narrate their year's experiences, achievements, and behind-the-scenes moments.",
@@ -285,7 +322,7 @@ export const siteConfig: SiteConfig = {
     },
     {
       id: "book-movie-reviews",
-      number: "07",
+      number: "08",
       title: "Book & Movie Reviews",
       shortDescription:
         "Student reviews and recommendations of books, movies, anime, and media.",
@@ -304,7 +341,7 @@ export const siteConfig: SiteConfig = {
     },
     {
       id: "seriousness-not-found",
-      number: "08",
+      number: "09",
       title: "404: Seriousness Not Found",
       shortDescription:
         "Student comics, lighthearted campus observations, creative anecdotes, and humorous stories.",
@@ -322,7 +359,7 @@ export const siteConfig: SiteConfig = {
     },
     {
       id: "everyday-heroes",
-      number: "09",
+      number: "10",
       title: "Everyday Heroes",
       shortDescription:
         "Stories of people who make a positive difference through small acts of kindness or meaningful contributions.",
@@ -341,7 +378,7 @@ export const siteConfig: SiteConfig = {
     },
     {
       id: "how-well-do-you-know-mepco",
-      number: "10",
+      number: "11",
       title: "How Well Do You Know MEPCO?",
       shortDescription:
         "Interesting, unusual, historical, and humorous facts/trivia about our college campus.",
@@ -360,7 +397,7 @@ export const siteConfig: SiteConfig = {
     },
     {
       id: "scenes-from-the-past",
-      number: "11",
+      number: "12",
       title: "Scenes from the Past",
       shortDescription:
         "Interesting life experiences, turning points, nostalgic memories, and stories from faculty members.",

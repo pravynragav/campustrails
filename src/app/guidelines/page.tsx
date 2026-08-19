@@ -110,15 +110,15 @@ export default function GuidelinesPage() {
                 </div>
               </div>
 
-              <div className="rounded-2xl bg-black/5 p-6 border border-black/5">
+              <div className="rounded-2xl bg-black/5 p-6 border border-black/5 md:col-span-2">
                 <h3 className="font-bold text-[#151515] text-base mb-2">
-                  Opinion & Creative Pieces
+                  🎮 Interactive CT Creations
                 </h3>
                 <p className="text-xs text-black/70 leading-relaxed mb-4">
-                  Thoughtful commentary, op-eds, creative narratives, and short reflections written in English or Tamil.
+                  Mini-games, browser games, quizzes, aptitude challenges, puzzles, digital stories, AI chatbots, and interactive web experiences shareable via link.
                 </p>
                 <div className="text-xs font-semibold text-[#ed4b35]">
-                  Length: 400 - 1,000 words
+                  Format: Shareable Web Link / Access URL + Title, Description, Type & Team Info
                 </div>
               </div>
             </div>
@@ -144,7 +144,7 @@ export default function GuidelinesPage() {
               <li className="flex items-start gap-3">
                 <CheckCircle2 className="h-5 w-5 text-[#ed4b35] shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-[#151515]">File Formats:</strong> We accept Microsoft Word documents (<code className="font-mono">.docx</code>), Portable Document Format (<code className="font-mono">.pdf</code>), or accessible Google Docs share links with view permissions enabled.
+                  <strong className="text-[#151515]">File & Web Formats:</strong> We accept Microsoft Word documents (<code className="font-mono">.docx</code>), PDF (<code className="font-mono">.pdf</code>), Google Docs links, or active web access URLs for interactive activities (games, quizzes, AI chatbots, puzzles).
                 </div>
               </li>
               <li className="flex items-start gap-3">

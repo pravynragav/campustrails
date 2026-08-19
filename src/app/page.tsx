@@ -81,18 +81,18 @@ export default function Home() {
               {/* Action Buttons */}
               <div className="mt-10 flex flex-wrap items-center gap-4">
                 <Link
-                  href="/collection"
+                  href="/sections"
                   className="group inline-flex items-center gap-3 rounded-full bg-[#151515] px-8 py-4 text-xs font-bold uppercase tracking-wider text-white transition-all duration-300 hover:bg-[#ed4b35] hover:shadow-xl hover:shadow-[#ed4b35]/20 hover:-translate-y-0.5"
                 >
-                  <span>Explore Collection</span>
+                  <span>Explore Sections</span>
                   <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                 </Link>
 
                 <Link
-                  href="/sections"
+                  href="/collection"
                   className="inline-flex items-center gap-2 rounded-full border border-black/20 bg-white/70 px-6 py-4 text-xs font-bold uppercase tracking-wider text-black/80 backdrop-blur-sm transition-all hover:bg-white hover:border-black/40"
                 >
-                  Browse Sections
+                  Main Article Collection
                 </Link>
               </div>
             </div>
@@ -211,7 +211,7 @@ export default function Home() {
       </section>
 
       {/* SECTIONS CATALOG GRID */}
-      <section id="sections" className="bg-[#151515] text-[#f5f3ee] py-20 md:py-28">
+      <section id="sections" className="bg-[#151515] text-[#f5f3ee] py-20 md:py-28 border-t border-black/10">
         <div className="mx-auto max-w-7xl px-5 md:px-8">
           <div className="mb-14 flex flex-col justify-between gap-4 md:flex-row md:items-end">
             <div>
@@ -219,12 +219,14 @@ export default function Home() {
                 02 / Explore Catalog
               </p>
               <h2 className="text-4xl font-black tracking-[-0.05em] text-white md:text-6xl">
-                SECTIONS
+                SECTIONS CATALOG
               </h2>
             </div>
-            <p className="text-xs uppercase tracking-widest text-white/40">
-              More sections coming soon
-            </p>
+            <div className="flex items-center gap-3">
+              <span className="text-xs font-mono font-bold uppercase tracking-widest text-white/50 bg-white/10 px-4 py-2 rounded-full border border-white/10">
+                12 Publication Categories
+              </span>
+            </div>
           </div>
 
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
