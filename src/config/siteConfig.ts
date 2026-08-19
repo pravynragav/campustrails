@@ -309,9 +309,8 @@ export const siteConfig: SiteConfig = {
         "Clubs and student activities narrate their year's experiences, achievements, and behind-the-scenes moments.",
       fullDescription:
         "An annual retrospective section where college clubs, technical societies, sports teams, and event committees document their year's journey, symposium highlights, team memories, and behind-the-scenes stories.",
-      status: "coming-soon",
-      formUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSc_A_YEAR_IN_MEPCO_FORM/viewform",
+      status: "active",
+      formUrl: "https://forms.gle/XCDc8NdVwV59nEAv6",
       categoryTag: "Clubs & Activities",
       expectedTopics: [
         "Technical & cultural club annual roundups",
@@ -319,6 +318,14 @@ export const siteConfig: SiteConfig = {
         "Sports team victories & tournament logs",
         "Society event memories",
       ],
+      submissionInfo: {
+        deadline: "Active Submission Window - Edition 27",
+        eligibleContributors: "College clubs, technical societies, sports teams & event committees",
+        submissionMethod: "Section-specific Google Form",
+        reviewProcess: "Fast-track review by Campus Trails editorial team",
+        contactEmail: "campustrails@mepcoeng.ac.in",
+        acceptedFormats: ["DOCX", "PDF", "Google Docs link", "Photos & Event write-ups"],
+      },
     },
     {
       id: "book-movie-reviews",
@@ -384,9 +391,8 @@ export const siteConfig: SiteConfig = {
         "Interesting, unusual, historical, and humorous facts/trivia about our college campus.",
       fullDescription:
         "Did you know the secret history of our campus landmarks? A trivia and fun-facts section celebrating unique campus spots, historical anecdotes, architectural secrets, and campus lore.",
-      status: "coming-soon",
-      formUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSc_KNOW_MEPCO_FORM/viewform",
+      status: "active",
+      formUrl: "https://forms.gle/EUHha4JnEvZ8EEJX7",
       categoryTag: "Campus Trivia & Lore",
       expectedTopics: [
         "Mepco Schlenk Engineering College history & milestones",
@@ -394,6 +400,14 @@ export const siteConfig: SiteConfig = {
         "Campus flora, fauna & eco-friendly features",
         "Historical photos & timeline trivia",
       ],
+      submissionInfo: {
+        deadline: "Active Submission Window - Edition 27",
+        eligibleContributors: "Students, Faculty, Staff, and Alumni of Mepco",
+        submissionMethod: "Section-specific Google Form",
+        reviewProcess: "Review by Campus Trails editorial team",
+        contactEmail: "campustrails@mepcoeng.ac.in",
+        acceptedFormats: ["Trivia submission via Google Form", "Photos & Historical facts"],
+      },
     },
     {
       id: "scenes-from-the-past",
@@ -403,9 +417,8 @@ export const siteConfig: SiteConfig = {
         "Interesting life experiences, turning points, nostalgic memories, and stories from faculty members.",
       fullDescription:
         "Wisdom and nostalgia from our esteemed professors and staff. Faculty members share their college days, career turning points, industry insights, and nostalgic memories of engineering education.",
-      status: "coming-soon",
-      formUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSc_SCENES_FROM_PAST_FORM/viewform",
+      status: "active",
+      formUrl: "https://forms.gle/Lhi64ziEhj15FrFX6",
       categoryTag: "Faculty Nostalgia",
       expectedTopics: [
         "Professors sharing their own college memories",
@@ -413,6 +426,14 @@ export const siteConfig: SiteConfig = {
         "Advice for young engineering graduates",
         "Evolution of Mepco over the decades",
       ],
+      submissionInfo: {
+        deadline: "Active Submission Window - Edition 27",
+        eligibleContributors: "Faculty members, retired professors, and senior staff",
+        submissionMethod: "Section-specific Google Form",
+        reviewProcess: "Editorial board review guided by Faculty In-Charge Dr. J. Senthilkumar",
+        contactEmail: "campustrails@mepcoeng.ac.in",
+        acceptedFormats: ["DOCX", "PDF", "Google Docs link", "Text & Audio/Photo transcripts"],
+      },
     },
   ],
 };
