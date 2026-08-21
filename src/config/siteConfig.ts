@@ -272,9 +272,8 @@ export const siteConfig: SiteConfig = {
         "Students share useful engineering, technical, practical or life skills they have learned.",
       fullDescription:
         "A practical knowledge-sharing space where students break down useful technical skills, coding tricks, lab techniques, soft skills, or life lessons discovered during their engineering journey at Mepco.",
-      status: "coming-soon",
-      formUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSc_WHAT_I_LEARNED_FORM/viewform",
+      status: "active",
+      formUrl: "https://forms.gle/nkpN9hWgy1TVeof97",
       categoryTag: "Skills & Learnings",
       expectedTopics: [
         "Useful engineering & coding techniques",
@@ -282,6 +281,14 @@ export const siteConfig: SiteConfig = {
         "Life skills & time management at hostel",
         "Interview preparation takeaways",
       ],
+      submissionInfo: {
+        deadline: "Active Submission Window - Edition 27",
+        eligibleContributors: "Students, Faculty, and Alumni of Mepco",
+        submissionMethod: "Section-specific Google Form",
+        reviewProcess: "Review by Campus Trails editorial team",
+        contactEmail: "campustrails@mepcoeng.ac.in",
+        acceptedFormats: ["Text submission via Google Form", "DOCX / PDF", "Google Docs link"],
+      },
     },
     {
       id: "diy-creative-corner",
@@ -335,9 +342,8 @@ export const siteConfig: SiteConfig = {
         "Student reviews and recommendations of books, movies, anime, and media.",
       fullDescription:
         "Got a book or movie that inspired you? Share insightful student reviews, media critiques, book recommendations, movie analysis, and anime breakdowns for the Mepco community.",
-      status: "coming-soon",
-      formUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSc_BOOK_MOVIE_REVIEWS_FORM/viewform",
+      status: "active",
+      formUrl: "https://forms.gle/LH6kEBMwwBYPpajv6",
       categoryTag: "Media & Reviews",
       expectedTopics: [
         "Technical & non-fiction book reviews",
@@ -345,6 +351,14 @@ export const siteConfig: SiteConfig = {
         "Documentary & sci-fi breakdowns",
         "Tamil literature & regional film critiques",
       ],
+      submissionInfo: {
+        deadline: "Active Submission Window - Edition 27",
+        eligibleContributors: "Students, Faculty, and Alumni of Mepco",
+        submissionMethod: "Section-specific Google Form",
+        reviewProcess: "Review by Campus Trails editorial team",
+        contactEmail: "campustrails@mepcoeng.ac.in",
+        acceptedFormats: ["DOCX / PDF", "Google Docs link", "Text submission via Google Form"],
+      },
     },
     {
       id: "seriousness-not-found",
@@ -372,9 +386,8 @@ export const siteConfig: SiteConfig = {
         "Stories of people who make a positive difference through small acts of kindness or meaningful contributions.",
       fullDescription:
         "Honoring the unsung heroes of Mepco Schlenk Engineering College — campus staff, canteen workers, bus drivers, security guards, peer mentors, and students performing quiet acts of kindness.",
-      status: "coming-soon",
-      formUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSc_EVERYDAY_HEROES_FORM/viewform",
+      status: "active",
+      formUrl: "https://forms.gle/pF3GHPf8mbqknjCo8",
       categoryTag: "Inspiration & Community",
       expectedTopics: [
         "Spotlights on campus support staff",
@@ -382,6 +395,14 @@ export const siteConfig: SiteConfig = {
         "Community service & NSS initiative highlights",
         "Unsung heroes of Mepco",
       ],
+      submissionInfo: {
+        deadline: "Active Submission Window - Edition 27",
+        eligibleContributors: "Students, Faculty, and Alumni of Mepco",
+        submissionMethod: "Section-specific Google Form",
+        reviewProcess: "Review by Campus Trails editorial team",
+        contactEmail: "campustrails@mepcoeng.ac.in",
+        acceptedFormats: ["DOCX / PDF", "Google Docs link", "Text & Photo submissions"],
+      },
     },
     {
       id: "how-well-do-you-know-mepco",
