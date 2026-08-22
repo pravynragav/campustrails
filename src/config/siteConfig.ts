@@ -80,7 +80,7 @@ export const siteConfig: SiteConfig = {
   articleCollectionForm: "https://forms.gle/6PA9JdWMk88eHrHd6",
 
   submissionInfo: {
-    deadline: "Rolling Submission (Phase 1 Priority Deadline: March 31, 2026)",
+    deadline: "December 31, 2026",
     eligibleContributors:
       "All current students, faculty members, and alumni of Mepco Schlenk Engineering College",
     submissionMethod:
@@ -171,7 +171,7 @@ export const siteConfig: SiteConfig = {
         "Feature Essays & Personal Narratives",
       ],
       submissionInfo: {
-        deadline: "Rolling Submissions - Phase 1 Priority: March 31, 2026",
+        deadline: "December 31, 2026",
         eligibleContributors: "Open to all Mepco Schlenk Engineering College students & staff",
         submissionMethod: "Section-specific Google Form",
         reviewProcess: "Editorial board review guided by Dr. J. Senthilkumar within 7 days",
@@ -198,7 +198,7 @@ export const siteConfig: SiteConfig = {
         "Memorable student & faculty anecdotes",
       ],
       submissionInfo: {
-        deadline: "Active Submission Window",
+        deadline: "December 31, 2026",
         eligibleContributors: "Students, Faculty, and Alumni of Mepco",
         submissionMethod: "Section-specific Google Form",
         reviewProcess: "Fast-track review by Campus Chronicles editorial team",
@@ -215,7 +215,7 @@ export const siteConfig: SiteConfig = {
       fullDescription:
         "One Question, Many Voices features short, impactful perspectives from students across all departments and academic years at Mepco. Each month, we pose one compelling question and feature the top responses directly on the website.",
       status: "active",
-      formUrl: "https://forms.gle/FHiUfH96tmkSHQfL9",
+      formUrl: "https://forms.gle/35YpbDLRjewNx9Rd9",
       categoryTag: "Interactive Website Section",
       expectedTopics: [
         "What is one memory with your friends that you will never forget?",
@@ -249,7 +249,7 @@ export const siteConfig: SiteConfig = {
         "Other fun, playable, or interactive creations",
       ],
       submissionInfo: {
-        deadline: "Active Submission Window - Edition 27",
+        deadline: "December 31, 2026",
         eligibleContributors:
           "Students, Faculty, and Alumni — anyone who has created an interactive activity shareable via link",
         submissionMethod: "Section-specific Google Form",
@@ -282,7 +282,7 @@ export const siteConfig: SiteConfig = {
         "Interview preparation takeaways",
       ],
       submissionInfo: {
-        deadline: "Active Submission Window - Edition 27",
+        deadline: "December 31, 2026",
         eligibleContributors: "Students, Faculty, and Alumni of Mepco",
         submissionMethod: "Section-specific Google Form",
         reviewProcess: "Review by Campus Trails editorial team",
@@ -326,7 +326,7 @@ export const siteConfig: SiteConfig = {
         "Society event memories",
       ],
       submissionInfo: {
-        deadline: "Active Submission Window - Edition 27",
+        deadline: "December 31, 2026",
         eligibleContributors: "College clubs, technical societies, sports teams & event committees",
         submissionMethod: "Section-specific Google Form",
         reviewProcess: "Fast-track review by Campus Trails editorial team",
@@ -352,7 +352,7 @@ export const siteConfig: SiteConfig = {
         "Tamil literature & regional film critiques",
       ],
       submissionInfo: {
-        deadline: "Active Submission Window - Edition 27",
+        deadline: "December 31, 2026",
         eligibleContributors: "Students, Faculty, and Alumni of Mepco",
         submissionMethod: "Section-specific Google Form",
         reviewProcess: "Review by Campus Trails editorial team",
@@ -396,7 +396,7 @@ export const siteConfig: SiteConfig = {
         "Unsung heroes of Mepco",
       ],
       submissionInfo: {
-        deadline: "Active Submission Window - Edition 27",
+        deadline: "December 31, 2026",
         eligibleContributors: "Students, Faculty, and Alumni of Mepco",
         submissionMethod: "Section-specific Google Form",
         reviewProcess: "Review by Campus Trails editorial team",
@@ -422,7 +422,7 @@ export const siteConfig: SiteConfig = {
         "Historical photos & timeline trivia",
       ],
       submissionInfo: {
-        deadline: "Active Submission Window - Edition 27",
+        deadline: "December 31, 2026",
         eligibleContributors: "Students, Faculty, Staff, and Alumni of Mepco",
         submissionMethod: "Section-specific Google Form",
         reviewProcess: "Review by Campus Trails editorial team",
@@ -448,7 +448,7 @@ export const siteConfig: SiteConfig = {
         "Evolution of Mepco over the decades",
       ],
       submissionInfo: {
-        deadline: "Active Submission Window - Edition 27",
+        deadline: "December 31, 2026",
         eligibleContributors: "Faculty members, retired professors, and senior staff",
         submissionMethod: "Section-specific Google Form",
         reviewProcess: "Editorial board review guided by Faculty In-Charge Dr. J. Senthilkumar",
