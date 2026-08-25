@@ -6,6 +6,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { siteConfig } from "@/config/siteConfig";
 import { Menu, X, ArrowUpRight } from "lucide-react";
+import { VisitorCountBadge } from "@/components/VisitorCountBadge";
 
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
@@ -79,11 +80,12 @@ export const Navbar: React.FC = () => {
           })}
         </div>
 
-        {/* Action Pill Badge */}
-        <div className="hidden items-center gap-4 md:flex">
+        {/* Action Pill & Mini Visitor Badge */}
+        <div className="flex items-center gap-3">
+          <VisitorCountBadge variant="nav" />
           <Link
             href="/collection"
-            className="group flex items-center gap-2 rounded-full border border-black/15 bg-white px-4 py-2 text-xs font-bold text-[#151515] transition-all duration-300 hover:border-[#ed4b35] hover:bg-[#151515] hover:text-white shadow-sm"
+            className="group hidden items-center gap-2 rounded-full border border-black/15 bg-white px-4 py-2 text-xs font-bold text-[#151515] transition-all duration-300 hover:border-[#ed4b35] hover:bg-[#151515] hover:text-white shadow-sm md:flex"
           >
             <span>CT27 *</span>
             <ArrowUpRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />

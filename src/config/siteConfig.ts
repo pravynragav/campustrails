@@ -42,6 +42,9 @@ export interface SiteConfig {
   patron: string;
   facultyInCharge: string;
   articleCollectionForm: string;
+  googleSheetCsvUrl?: string;
+  visitorCounterNamespace?: string;
+  initialVisitorCount?: number;
   collegeLogoPath: string;
   collegeImagePath: string;
   submissionInfo: SubmissionDetails;
@@ -78,6 +81,14 @@ export const siteConfig: SiteConfig = {
 
   // Central Google Form URL for Main Article Collection
   articleCollectionForm: "https://forms.gle/6PA9JdWMk88eHrHd6",
+
+  // Published Google Sheet CSV URL (From Google Form -> Responses -> Link to Sheets -> File -> Share -> Publish to Web -> CSV)
+  // Replace empty string with your published CSV link!
+  googleSheetCsvUrl: process.env.NEXT_PUBLIC_SHEET_CSV_URL || "",
+
+  // Visitor Counter Namespace Key & Initial Starting Count
+  visitorCounterNamespace: "campus-trails-27-mepco-v2",
+  initialVisitorCount: 1500,
 
   submissionInfo: {
     deadline: "December 31, 2026",
@@ -146,7 +157,6 @@ export const siteConfig: SiteConfig = {
 
   navigation: [
     { label: "Home", href: "/" },
-    { label: "Collection", href: "/collection" },
     { label: "Sections", href: "/sections" },
     { label: "Guidelines", href: "/guidelines" },
   ],
@@ -187,9 +197,8 @@ export const siteConfig: SiteConfig = {
         "Real campus experiences, event stories, funny incidents, memorable lab moments, and faculty anecdotes.",
       fullDescription:
         "Campus Chronicles captures the authentic heartbeat of Mepco Schlenk Engineering College life. Share real campus experiences, symposium victories, funny hostel/mess incidents, unforgettable lab bloopers, short memories, and lighthearted student/faculty stories.",
-      status: "coming-soon",
-      formUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSc_CAMPUS_CHRONICLES_FORM/viewform",
+      status: "active",
+      formUrl: "https://forms.gle/BcroMuV5CEzJfhGH8",
       categoryTag: "Priority Section",
       expectedTopics: [
         "Real campus experiences & event stories",

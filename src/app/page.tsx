@@ -3,6 +3,8 @@ import { siteConfig } from "@/config/siteConfig";
 import { SubmitButton } from "@/components/SubmitButton";
 import { SectionCard } from "@/components/SectionCard";
 import { StatusBadge } from "@/components/StatusBadge";
+import { CountdownTimer } from "@/components/CountdownTimer";
+import { OneQuestionVoices } from "@/components/OneQuestionVoices";
 import {
   ArrowRight,
   Sparkles,
@@ -63,37 +65,48 @@ export default function Home() {
               </p>
 
               {/* Languages & Formats Pills */}
-              <div className="mt-6 flex flex-wrap gap-2 text-xs font-semibold text-black/70">
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-white px-3.5 py-1.5 border border-black/10 shadow-sm">
-                  <Languages className="h-3.5 w-3.5 text-[#ed4b35]" />
+              <div className="mt-6 flex flex-wrap gap-2.5 text-xs font-semibold text-black/80">
+                <span className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 border border-black/10 shadow-xs">
+                  <Languages className="h-4 w-4 text-[#ed4b35]" />
                   Tamil (கவிதைகள் & கதைகள்)
                 </span>
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-white px-3.5 py-1.5 border border-black/10 shadow-sm">
-                  <PenTool className="h-3.5 w-3.5 text-[#ed4b35]" />
+                <span className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 border border-black/10 shadow-xs">
+                  <PenTool className="h-4 w-4 text-[#ed4b35]" />
                   English Stories & Poetry
                 </span>
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-white px-3.5 py-1.5 border border-black/10 shadow-sm">
-                  <ImageIcon className="h-3.5 w-3.5 text-[#ed4b35]" />
+                <span className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 border border-black/10 shadow-xs">
+                  <ImageIcon className="h-4 w-4 text-[#ed4b35]" />
                   Photographs & Drawings
                 </span>
               </div>
 
-              {/* Action Buttons */}
-              <div className="mt-10 flex flex-wrap items-center gap-4">
-                <Link
-                  href="/sections"
-                  className="group inline-flex items-center gap-3 rounded-full bg-[#151515] px-8 py-4 text-xs font-bold uppercase tracking-wider text-white transition-all duration-300 hover:bg-[#ed4b35] hover:shadow-xl hover:shadow-[#ed4b35]/20 hover:-translate-y-0.5"
-                >
-                  <span>Explore Sections</span>
-                  <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
-                </Link>
+              {/* DOMINANT HERO ACTION AREA - EXPLORE SECTIONS MAIN BUTTON */}
+              <div className="mt-10 flex flex-col items-start gap-4">
+                <div className="flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-widest text-[#ed4b35]">
+                  <Sparkles className="h-4 w-4 animate-pulse" />
+                  <span>Start Here — Explore 12 Publication Categories</span>
+                </div>
 
-                <Link
-                  href="/collection"
-                  className="inline-flex items-center gap-2 rounded-full border border-black/20 bg-white/70 px-6 py-4 text-xs font-bold uppercase tracking-wider text-black/80 backdrop-blur-sm transition-all hover:bg-white hover:border-black/40"
-                >
-                  Main Article Collection
-                </Link>
+                <div className="flex flex-wrap items-center gap-4">
+                  <Link
+                    href="/sections"
+                    className="group relative inline-flex items-center justify-center gap-4 rounded-full bg-gradient-to-r from-[#ed4b35] via-[#f2533d] to-[#ed4b35] px-10 py-5 text-base font-black uppercase tracking-wider text-white shadow-[0_12px_40px_rgba(237,75,53,0.45)] transition-all duration-300 hover:scale-105 hover:shadow-[0_16px_50px_rgba(237,75,53,0.6)] active:scale-95 border border-white/20"
+                  >
+                    <span className="relative flex h-3.5 w-3.5">
+                      <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-90"></span>
+                      <span className="relative inline-flex h-3.5 w-3.5 rounded-full bg-white"></span>
+                    </span>
+                    <span>Explore Publication Sections</span>
+                    <ArrowRight className="h-6 w-6 transition-transform duration-300 group-hover:translate-x-2" />
+                  </Link>
+
+                  <Link
+                    href="/collection"
+                    className="inline-flex items-center gap-2 rounded-full border border-black/20 bg-white/90 px-7 py-5 text-xs font-bold uppercase tracking-wider text-black/80 backdrop-blur-sm transition-all hover:bg-white hover:border-black/40 hover:shadow-md"
+                  >
+                    Main Article Collection
+                  </Link>
+                </div>
               </div>
             </div>
 
@@ -142,7 +155,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* FEATURED MAIN ARTICLE COLLECTION BANNER ONLY */}
+      {/* 1. FEATURED MAIN ARTICLE COLLECTION BANNER */}
       <section id="collection" className="mx-auto max-w-7xl px-5 py-20 md:px-8 md:py-28">
         <div className="overflow-hidden rounded-3xl bg-[#151515] text-[#f5f3ee] shadow-2xl border border-white/10">
           <div className="grid lg:grid-cols-[0.8fr_1.2fr]">
@@ -205,9 +218,19 @@ export default function Home() {
                   Read Submission Guidelines →
                 </Link>
               </div>
+
+              {/* Countdown Timer */}
+              <div className="mt-8">
+                <CountdownTimer />
+              </div>
             </div>
           </div>
         </div>
+      </section>
+
+      {/* 2. ONE QUESTION, MANY VOICES INTERACTIVE WIDGET */}
+      <section className="mx-auto max-w-7xl px-5 pb-20 md:px-8 md:pb-28">
+        <OneQuestionVoices />
       </section>
 
       {/* SECTIONS CATALOG GRID */}

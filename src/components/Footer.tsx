@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { siteConfig } from "@/config/siteConfig";
 import { Mail, ArrowUpRight, Award, UserCheck, Shield } from "lucide-react";
+import { VisitorCountBadge } from "@/components/VisitorCountBadge";
 
 export const Footer: React.FC = () => {
   return (
@@ -102,20 +103,23 @@ export const Footer: React.FC = () => {
               </a>
             </div>
 
-            <Link
-              href="/collection"
+            <a
+              href={siteConfig.articleCollectionForm}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-full bg-[#ed4b35] px-5 py-2.5 text-xs font-bold text-white transition-all hover:bg-[#d43d28]"
             >
               <span>Submit Article via Google Form</span>
               <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-            </Link>
+            </a>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-xs text-white/40 md:flex-row">
-          <div className="font-bold text-white/70">
-            CAMPUS TRAILS<span className="text-[#ed4b35]"> 27</span> · {siteConfig.institution}
+          <div className="flex items-center gap-3 font-bold text-white/70">
+            <span>CAMPUS TRAILS<span className="text-[#ed4b35]"> 27</span> · {siteConfig.institution}</span>
+            <VisitorCountBadge variant="footer" />
           </div>
 
           <div>
