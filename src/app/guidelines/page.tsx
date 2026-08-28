@@ -112,7 +112,7 @@ export default function GuidelinesPage() {
 
               <div className="rounded-2xl bg-black/5 p-6 border border-black/5 md:col-span-2">
                 <h3 className="font-bold text-[#151515] text-base mb-2">
-                  🎮 Interactive CT Creations
+                  🎮 Brainrot Side Quests
                 </h3>
                 <p className="text-xs text-black/70 leading-relaxed mb-4">
                   Mini-games, browser games, quizzes, aptitude challenges, puzzles, digital stories, AI chatbots, and interactive web experiences shareable via link.

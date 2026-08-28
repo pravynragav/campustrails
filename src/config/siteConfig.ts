@@ -239,11 +239,11 @@ export const siteConfig: SiteConfig = {
     {
       id: "interactive-ct",
       number: "04",
-      title: "Interactive CT",
+      title: "Brainrot Side Quests",
       shortDescription:
         "Mini-games, browser games, quizzes, aptitude challenges, puzzles, chatbots, and interactive web activities.",
       fullDescription:
-        "🎮 Interactive CT brings fun and interactive digital creations and web activities to Campus Trails 27. A dedicated space for students, faculty, and alumni to share mini-games, quizzes, trivia, aptitude challenges, puzzles, digital stories, AI chatbots, and playable experiences accessible via web links.",
+        "🎮 Brainrot Side Quests brings fun and interactive digital creations and web activities to Campus Trails 27. A dedicated space for students, faculty, and alumni to share mini-games, quizzes, trivia, aptitude challenges, puzzles, digital stories, AI chatbots, and playable experiences accessible via web links.",
       status: "active",
       formUrl: "https://forms.gle/JctUowRkW5nhEPnX6",
       categoryTag: "Interactive & Games",
