@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { siteConfig } from "@/config/siteConfig";
-import { Menu, X, ArrowUpRight } from "lucide-react";
+import { Menu, X, ArrowUpRight, BookOpen, ExternalLink } from "lucide-react";
 import { VisitorCountBadge } from "@/components/VisitorCountBadge";
 
 export const Navbar: React.FC = () => {
@@ -31,11 +31,10 @@ export const Navbar: React.FC = () => {
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "border-b border-black/10 bg-[#f5f3ee]/95 shadow-sm backdrop-blur-md"
-          : "bg-[#f5f3ee]/80 backdrop-blur-sm"
-      }`}
+      className={`sticky top-0 z-50 transition-all duration-300 ${scrolled
+        ? "border-b border-black/10 bg-[#f5f3ee]/95 shadow-sm backdrop-blur-md"
+        : "bg-[#f5f3ee]/80 backdrop-blur-sm"
+        }`}
     >
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:px-8">
         {/* Brand Logo & Crest */}
@@ -70,9 +69,8 @@ export const Navbar: React.FC = () => {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`nav-link text-black/70 hover:text-black ${
-                  isActive ? "active text-[#ed4b35] font-black" : ""
-                }`}
+                className={`nav-link text-black/70 hover:text-black ${isActive ? "active text-[#ed4b35] font-black" : ""
+                  }`}
               >
                 {item.label}
               </Link>
@@ -83,6 +81,16 @@ export const Navbar: React.FC = () => {
         {/* Action Pill & Mini Visitor Badge */}
         <div className="flex items-center gap-3">
           <VisitorCountBadge variant="nav" />
+          <a
+            href="https://heyzine.com/flip-book/95723d93ee.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group hidden items-center gap-2 rounded-full bg-gradient-to-r from-[#ed4b35] to-[#c93825] px-4 py-2 text-xs font-bold text-white shadow-sm transition-all duration-300 hover:shadow-md hover:shadow-[#ed4b35]/25 hover:scale-105 md:flex"
+          >
+            <BookOpen className="h-3.5 w-3.5" />
+            <span>CT26 Magazine</span>
+            <ExternalLink className="h-3 w-3 opacity-70 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+          </a>
           <Link
             href="/collection"
             className="group hidden items-center gap-2 rounded-full border border-black/15 bg-white px-4 py-2 text-xs font-bold text-[#151515] transition-all duration-300 hover:border-[#ed4b35] hover:bg-[#151515] hover:text-white shadow-sm md:flex"
@@ -118,22 +126,31 @@ export const Navbar: React.FC = () => {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`text-lg font-black tracking-tight transition-colors ${
-                    isActive ? "text-[#ed4b35]" : "text-[#151515] hover:text-[#ed4b35]"
-                  }`}
+                  className={`text-lg font-black tracking-tight transition-colors ${isActive ? "text-[#ed4b35]" : "text-[#151515] hover:text-[#ed4b35]"
+                    }`}
                 >
                   {item.label}
                 </Link>
               );
             })}
 
-            <div className="mt-4 border-t border-black/10 pt-5">
+            <div className="mt-4 border-t border-black/10 pt-5 space-y-3">
               <p className="text-xs text-black/50 mb-3">
                 {siteConfig.institution}
               </p>
+              <a
+                href="https://heyzine.com/flip-book/95723d93ee.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#ed4b35] to-[#c93825] py-3 text-xs font-bold text-white shadow-md"
+              >
+                <BookOpen className="h-4 w-4" />
+                <span>Read CT26 Magazine</span>
+                <ExternalLink className="h-3.5 w-3.5 opacity-70" />
+              </a>
               <Link
                 href="/collection"
-                className="flex items-center justify-center gap-2 rounded-full bg-[#ed4b35] py-3 text-xs font-bold text-white shadow-md"
+                className="flex items-center justify-center gap-2 rounded-full border border-black/15 bg-white py-3 text-xs font-bold text-[#151515] shadow-sm"
               >
                 <span>Contribute to CT27</span>
                 <ArrowUpRight className="h-4 w-4" />
